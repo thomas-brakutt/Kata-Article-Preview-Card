@@ -27,6 +27,7 @@ body {
 main {
   display: flex;
   justify-content: space-evenly;
+  gap: 2rem;
 }
 
 p {
@@ -37,7 +38,7 @@ p {
   box-shadow: 0.5rem 0.5rem var(--color-accent);
 
   max-width: 400px;
-  height: 500px;
+  height: 550px;
   border: var(--size-border) solid black;
   border-radius: var(--size-radius-outer);
   padding: var(--size-base);
@@ -65,6 +66,7 @@ p {
   margin-block: 0.8rem;
   font-size: var(--size-font-meta-container);
   color: grey;
+  _background-color: aquamarine;
 }
 
 .profile-img {
